@@ -11,29 +11,29 @@
             $subtracao = $num1 - $num2;
             $divisao = $num1 / $num2;
             $resto = $num1 % $num2;
-            echo "<table border ='1'>"
+            echo "<table border ='1'>";
             echo "<tr>";
                 echo "<td>" . $num1 . " + " . $num2 . " = </td>";
-                echo "<td>" . $soma . "</td>"
-            echo "</tr>"
+                echo "<td>" . $soma . "</td>";
+            echo "</tr>";
             echo "<tr>";
                 echo "<td>" . $num1 . " - " . $num2 . " = </td>";
-                echo "<td>" . $subtracao . "</td>"
-            echo "</tr>"
+                echo "<td>" . $subtracao . "</td>";
+            echo "</tr>";
             echo "<tr>";
                 echo "<td>" . $num1 . " / " . $num2 . " = </td>";
-                echo "<td>" . $divisao . "</td>"
-            echo "</tr>"
+                echo "<td>" . $divisao . "</td>";
+            echo "</tr>";
             echo "<tr>";
                 echo "<td>" . $num1 . " % " . $num2 . " = </td>";
-                echo "<td>" . $resto . "</td>"
-            echo "</tr>"
+                echo "<td>" . $resto . "</td>";
+            echo "</tr>";
 
-            echo "</table>"
+            echo "</table>";
         ?>
         <?php
             echo "</br></br>";
-            echo "<a href='index.php'>voltar</a>"
+            echo "<a href='index.php'>voltar</a>";
         ?>
     </body>
 </html>
